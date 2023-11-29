@@ -1,3 +1,4 @@
+import 'package:coach/pages/doctor_page/doctor_details.dart';
 import 'package:coach/pages/login_signup/login_page.dart';
 
 import 'package:coach/theme/light_mode.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       designSize: Size(428, 926),
       builder: (context, child) {
         return MaterialApp(
-          home: LoginPage(),
+          home: DoctorDetails(),
           theme: lightMode,
         );
       },
